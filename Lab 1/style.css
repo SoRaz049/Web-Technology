@@ -7,7 +7,7 @@
 
 h3
 {
-    color: #10b318;
+    color: #ff6a1f;
 }
  body::before {
     content: "";
@@ -27,18 +27,11 @@ h3
     font-weight: 350;
 }
 body{
-   background-image: url('images/bg_image.png');
+   background-image: url('images/bg1_image.png');
    background-repeat: no-repeat;
    background-size: 150%;
 }
-@media screen and (max-width: 768px) {
-    body {
-        background-image: url('images/rick.jpg');
-        background-size:cover;
-        background-attachment: fixed;
 
-    }
-}
 
 li{
     margin-left: 50px;
@@ -47,7 +40,7 @@ nav{
     margin-right: 0px;
     margin-bottom: 15px;
     height: auto;
-    background-color:  #10b318;
+    background-color:  #f73c01;
 }
 nav ul{
     float: right;
@@ -90,7 +83,7 @@ main{
 }
 footer{
     width: auto;
-    background: #215a24;
+    background: #ce7a13;
     color: #fff;
     padding: 1rem 2rem;
   }
