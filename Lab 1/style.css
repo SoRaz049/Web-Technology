@@ -51,6 +51,7 @@ nav ul{
     list-style: none; 
     line-height: 90px;  
 }
+
 .navlist a{
     color: white;
     font-size:17px;
@@ -59,8 +60,14 @@ nav ul{
     text-transform: uppercase;
 }
 
-.navlist li a:hover{
+.navlist li.separator {
     color: black;
+    font-weight: bolder;
+    padding: 0 5px;
+}
+
+.navlist li a:hover{
+    color: rgb(0, 0, 0);
 }
 .navlist li a:active{
     background-color: #c5c5c5;
@@ -110,5 +117,5 @@ footer{
 }
 
 .socials i:hover{
-    color: black;
+    color: rgb(8, 187, 252);
 }
